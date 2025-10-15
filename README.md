@@ -25,6 +25,17 @@
 | Nicole Bermundo   | ---- |
 | Zynnon Kyle Depoo | ---- |
 
+## 🧩 Project Description
+
+The **Online Store Customer Behavior and Sales Funnel** project focuses on analyzing how customers interact with an e-commerce platform — from browsing and adding items to the cart, to completing purchases.  
+
+The goal is to gain insights into:
+- Purchase behavior and conversion rates  
+- Product performance and sales trends  
+- Customer retention and engagement metrics  
+
+The data warehouse supports decision-making for marketing, promotions, and product optimization.
+
 ## 🛠️ Tools and Technologies
 
 | Tool | Purpose |
