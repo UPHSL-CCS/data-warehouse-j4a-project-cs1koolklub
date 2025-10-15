@@ -38,9 +38,10 @@ The data warehouse supports decision-making for marketing, promotions, and produ
 
 ## 🛠️ Tools and Technologies
 
-| Tool | Purpose |
-|------|----------|
-| **Google BigQuery** | Cloud data warehouse for storing, transforming, and querying large datasets |
-| **Google Looker Studio** | Visualization tool for building interactive dashboards and reports |
-| **SQL** | Query language for transformations, joins, and creating views/materialized views |
-| **Git, Github** | Version control and collaboration platform for the project repository 
+| Tool | Purpose | Possible Issues |
+|------|---------| --------------- |
+| **Google BigQuery** | Cloud data warehouse for storing, transforming, and querying large datasets | Free tier limitations |
+| **Google Looker Studio** | Visualization tool for building interactive dashboards and reports | Free tier limitations |
+| **SQL** | Query language for transformations, joins, and creating views/materialized views | --- |
+| **Git, Github** | Version control and collaboration platform for the project repository | --- |
+
