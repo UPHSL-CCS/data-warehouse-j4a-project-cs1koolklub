@@ -66,13 +66,14 @@ The data warehouse supports decision-making for marketing, promotions, and produ
 
 ## Project Plan ⚙️
 
-The project follows the Kimball Data Warehousing Model using either PostgreSQL hosted on Azure or Google BigQuery as the platform. This approach focuses on building data marts for key areas like customers, products, and sales, which are then integrated into a single data warehouse for analytics and reporting.
+   The project follows the Kimball Data Warehousing Model using either PostgreSQL hosted on Azure or Google BigQuery as the platform. This approach focuses on building data marts for key areas like customers, products, and sales, which are then integrated into a single data warehouse for analytics and reporting.
 
-Implementation Overview
+   Implementation Overview
 
-1.	Data Collection – Gather raw e-commerce data (transactions, customer activity, products).
-2.	Data Modeling – Design a Star Schema with fact and dimension tables.
-3.	ETL Process – Extract, clean, and load data into the warehouse.
-4.	Optimization – Apply partitioning, indexing/clustering, and materialized views to improve query performance.
-5.	Visualization – Connect to Power BI, Tableau, or Looker Studio for dashboards and reports.
-6.	Collaboration – Use GitHub Classroom for version control and teamwork.
+1. Data Collection – Gather raw
+e-commerce data (transactions,customer activity, products).
+2. Data Modeling – Design a Star Schema with fact and dimension tables.
+3. ETL Process – Extract, clean, and load data into the warehouse.
+4. Optimization – Apply partitioning, indexing/clustering, and materialized views to improve query performance.
+5. Visualization – Connect to Power BI, Tableau, or Looker Studio for dashboards and reports.
+6. Collaboration – Use GitHub Classroom for version control and teamwork.
