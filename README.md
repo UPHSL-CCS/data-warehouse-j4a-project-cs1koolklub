@@ -9,7 +9,7 @@
 
 ## 🎯 Objective
 
-    1. Implement and analyze data warehouse optimization techniques using Google BigQuery.  
+    1. Implement and analyze data warehouse optimization techniques using either Google BigQuery or PostgreSQL hosted on Microsoft Azure.
     2. Apply partitioning, clustering, and materialized views to improve query performance.  
     3. Demonstrate version-controlled collaboration through GitHub Classroom.
 
@@ -35,6 +35,22 @@ The goal is to gain insights into:
 - Customer retention and engagement metrics  
 
 The data warehouse supports decision-making for marketing, promotions, and product optimization.
+
+## What is **Customer Behavior**?
+
+- Customer behavior shows how people act before, during, and after buying a product.
+- It helps businesses understand what customers want, how they decide, and what influences their purchases.
+
+## What is **Sales Funnel**?
+
+- A sales funnel is the customer journey from awareness to purchase.
+- It has four stages: Awareness, Interest, Decision, and Action.
+- It helps businesses see where customers lose interest and how to improve conversions.
+
+## Why need to **Analyze Customer Behavior**?
+
+- Analyzing customer behavior helps identify top products and effective marketing strategies.
+- It also reveals why customers leave without buying and guides the company in improving user experience.
 
 ## 🛠️ Considerations for Tools and Technologies
 
