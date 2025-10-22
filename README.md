@@ -36,12 +36,14 @@ The goal is to gain insights into:
 
 The data warehouse supports decision-making for marketing, promotions, and product optimization.
 
-## 🛠️ Tools and Technologies
+## 🛠️ Considerations for Tools and Technologies
 
-| Tool | Purpose | Possible Issues |
-|------|---------| --------------- |
-| **Google BigQuery** | Cloud data warehouse for storing, transforming, and querying large datasets | Free tier limitations |
-| **Google Looker Studio** | Visualization tool for building interactive dashboards and reports | Free tier limitations |
-| **SQL** | Query language for transformations, joins, and creating views/materialized views | --- |
-| **Git, Github** | Version control and collaboration platform for the project repository | --- |
-
+| Tool | Purpose | Advantage | Possible Issues |
+|------|---------| --------- | --------------- |
+| **Google BigQuery** | Cloud data warehouse for storing, transforming, and querying large datasets | Cloud-native, should integrate nicely with Looker (GCP ecosystem) | Free tier limits on storage and processing |
+| **Google Looker Studio** | Visualization tool for building interactive dashboards and reports |Cloud-native, should integrate nicely with Bigquery (GCP ecosystem) | Free tier limits on storage and processing |
+| **PostgreSQL** | Relational DB, can be used for analytics with some setup | Free and open-source | Might have to require hosting via cloud providers for the purpose of the project |
+| **SQL Server** | Relational DB, can also be used for analytics with some setup | Could integrate with PowerBI (Microsoft ecosystem) and 🗣️🔥 AZURE FREE TIER $100 IN CREDITS 🔥 | Group's familiarity with Azure |
+| **PowerBI** | Data visualization tool for dashboards | Free, industry-standard for visualizations | Not free for embedded analytics, but should be irrelevant for the project |
+| **SQL** | Query language for transformations, joins, and creating views/materialized views | Industry-standard | Other SQL dialects could be confusing 
+| **Git, Github** | Version control and collaboration platform for the project repository | Free, easily accessible | Group's comfort with using Git
