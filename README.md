@@ -3,6 +3,8 @@
 # KOOLKLUB: Data Warehousing Project
 **Online Store Customer Behavior and Sales Funnel**
 
+Presentation Link ([GSlides](https://docs.google.com/presentation/d/1AE4YXqB-rd8UcBZSvhGJBoUmaESeCw7lg8lUDAGWJNc/edit?usp=sharing))
+
 
 **Course:** Data Warehousing  
 **Instructor:** Ms. Grachel Eliza Ching
