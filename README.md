@@ -3,6 +3,8 @@
 # KOOLKLUB: Data Warehousing Project
 **Online Store Customer Behavior and Sales Funnel**
 
+Presentation Link ([GSlides](https://docs.google.com/presentation/d/1AE4YXqB-rd8UcBZSvhGJBoUmaESeCw7lg8lUDAGWJNc/edit?usp=sharing))
+
 
 **Course:** Data Warehousing  
 **Instructor:** Ms. Grachel Eliza Ching
@@ -61,6 +63,7 @@ The data warehouse supports decision-making for marketing, promotions, and produ
 | **PostgreSQL** | Relational DB, can be used for analytics with some setup | Free and open-source | Might have to require hosting via cloud providers for the purpose of the project |
 | **SQL Server** | Relational DB, can also be used for analytics with some setup | Could integrate with PowerBI (Microsoft ecosystem) and 🗣️🔥 AZURE FREE TIER $100 IN CREDITS 🔥 | Group's familiarity with Azure |
 | **PowerBI** | Data visualization tool for dashboards | Free, industry-standard for visualizations | Not free for embedded analytics, but should be irrelevant for the project |
+| **Azure Data Factory** | ETL tool | Seemingly included in Azure for Students | Group's familiarity with Azure
 | **SQL** | Query language for transformations, joins, and creating views/materialized views | Industry-standard | Other SQL dialects could be confusing 
 | **Git, Github** | Version control and collaboration platform for the project repository | Free, easily accessible | Group's comfort with using Git
 
