@@ -19,7 +19,7 @@ This project was executed using the Kimball Data Warehousing Bottom-Up Approach.
 The process followed an **ELT (Extract, Load, Transform)** pattern, where raw data was loaded first, and cleaning/modeling took place within BigQuery.
 
 ### A. Data Source
-- **Source:** E-commerce Customer Behavior Dataset from Kaggle  
+- **Source:** E-commerce Customer Behavior Dataset from [Kaggle](https://www.kaggle.com/datasets/salahuddinahmedshuvo/ecommerce-consumer-behavior-analysis-data)
 - **Volume:** 1,000 transaction records  
 - **Initial Challenge:** `Purchase_Amount` was a STRING because it contained the dollar symbol ($), preventing numerical calculations.
 
