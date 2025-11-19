@@ -1,18 +1,22 @@
+-- Select fields to analyze return behavior by product category
 SELECT
-    -- Look at each product category
+    -- The product category being evaluated
     Purchase_Category,
     
-    -- Add up all the returns in this category
+    -- Total number of returns summed across all transactions in the category
     SUM(Return_Rate) AS total_returns,
     
-    -- Count all transactions in this category
+    -- Total number of transactions for that category
     COUNT(*) AS total_transactions,
     
-    -- Calculate return rate for the category (returns ÷ total transactions)
+    -- Return rate for the category calculated as total returns divided by total transactions
     (SUM(Return_Rate) / COUNT(*)) AS category_return_rate
 FROM
+    -- Source table containing customer behavior and purchase data
     `finals-project-478510.ecommerce_data.Consumer_Behavior_Fact`
 GROUP BY
-    Purchase_Category  -- Group the data by category
+    -- Group results by product category to aggregate metrics correctly
+    Purchase_Category
 ORDER BY
-    category_return_rate DESC;  -- Show categories with highest return rates first
+    -- Sort categories from highest to lowest return rate
+    category_return_rate DESC;
