@@ -64,17 +64,17 @@ Logic (Advanced): Used the LEAD() Window Function to compare consecutive purchas
 
 ---
 
-###4. Key Business Findings
+## 4. Key Business Findings:
 The insights generated from the interactive dashboard revealed several important business trends:
 
-**1. Customer Retention Issue**
+**1. Customer Retention Issue**:
   The Customer Retention Rate was measured at 0%, meaning no customers returned to make a second purchase.
 This highlights a major opportunity and an urgent need to implement a customer loyalty or retention strategy.
 
-**2. High Return Rate Categories**
+**2. High Return Rate Categories**:
   Electronics and Home Appliances showed the highest product return rates.
 These categories may require deeper investigation into product quality, customer expectations, or inaccurate product descriptions.
 
-**3. Sales Timing Optimization**
+**3. Sales Timing Optimization**:
   Thursday and Friday were identified as the highest-performing sales days.
 These days present the best opportunity to schedule marketing campaigns, promotions, and product launches for maximum impact.
