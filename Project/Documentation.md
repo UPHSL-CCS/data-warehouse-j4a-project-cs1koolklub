@@ -34,11 +34,10 @@ The process followed an **ELT (Extract, Load, Transform)** pattern, where raw da
 ## 3. Data Processing and Problem/Solution Log
 
 ### A. Data Cleaning Solution (`clean_fact_table` View)
-**Problem Encountered:** `Purchase_Amount` was an unusable TEXT type  
-**Solution:**  
-```sql
-REPLACE(Purchase_Amount, '$', '') 
-CAST AS NUMERIC
+**Problem Encountered:** The Purchase_Amount field was an unusable TEXT data type.
+**Solution Applied (SQL Logic):** We created the clean_fact_table view using two key SQL commands:
+1. REPLACE(Purchase_Amount, '$', '') was used to remove the dollar symbol.
+2. The result was then converted using CAST AS NUMERIC to ensure correct aggregation.
 
 ### B. Analytical Views (Data Marts)
 The following views were created to answer specific business questions:
