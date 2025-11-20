@@ -1,5 +1,8 @@
 # Project Documentation: E-Commerce Data Analysis
 
+## Presentation Slides
+[https://www.canva.com/design/DAG4-BzVEqI/RcC5BXwITsAkpcQb7vE1xA/edit?utm_content=DAG4-BzVEqI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton ](url)
+
 ## 1. Project Overview and Methodology
 
 **Project Goal:**  
@@ -79,7 +82,8 @@ These categories may require deeper investigation into product quality, customer
   Thursday and Friday were identified as the highest-performing sales days.
 These days present the best opportunity to schedule marketing campaigns, promotions, and product launches for maximum impact.
 
-##Extra Questions:
+## Extra Questions:
+
 **Why is the return rate showing above 100%, and how do I fix it?**
 
 The problem of the return rate exceeding $100\%$ was caused by corrupted data in the source file, where some return indicators were incorrectly marked as '2' instead of '1'. To fix this, we updated the BigQuery SQL query to clean the data, forcing any corrupted return value to be counted as only '1', which ensured the math was correct. Finally, in Looker Studio, we set the category_return_rate_final field to the Percent type, which correctly displays the true ratio (like $0.152$) as the accurate percentage ($15.2\%$).
