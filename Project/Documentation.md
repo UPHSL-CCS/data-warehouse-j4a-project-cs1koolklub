@@ -1,7 +1,8 @@
 # Project Documentation: E-Commerce Data Analysis
 
-## Presentation Slides
-[https://www.canva.com/design/DAG4-BzVEqI/RcC5BXwITsAkpcQb7vE1xA/edit?utm_content=DAG4-BzVEqI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton ](url)
+## Presentation Link
+
+([CANVA](https://www.canva.com/design/DAG4-BzVEqI/RcC5BXwITsAkpcQb7vE1xA/edit?utm_content=DAG4-BzVEqI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
 
 ## 1. Project Overview and Methodology
 
