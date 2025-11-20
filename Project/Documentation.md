@@ -93,6 +93,7 @@ The project follows a four-layer architecture:
 **Data Flow:** Raw data → BigQuery (fact tables) → SQL transformations (analytical views, data marts) → Looker Studio dashboards → End-user decision-making.
 
 **Answers to the Business Questions**
+
 ●	What is the conversion rate from cart to purchase per month?
 February recorded the highest average spending per customer at 298.45 dollars, even though it only had 68 customers. March, April, July, and August also showed strong performance in terms of customer count, but their average spending was slightly lower than in February. December had the lowest number of customers at 64, although the average spending stayed close to the overall trend. Overall, February stands out as the month where customers spent the most on average.
 
