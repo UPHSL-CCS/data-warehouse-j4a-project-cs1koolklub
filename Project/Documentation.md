@@ -81,9 +81,11 @@ These days present the best opportunity to schedule marketing campaigns, promoti
 
 ##Extra Questions:
 **Why is the return rate showing above 100%, and how do I fix it?**
+
 The problem of the return rate exceeding $100\%$ was caused by corrupted data in the source file, where some return indicators were incorrectly marked as '2' instead of '1'. To fix this, we updated the BigQuery SQL query to clean the data, forcing any corrupted return value to be counted as only '1', which ensured the math was correct. Finally, in Looker Studio, we set the category_return_rate_final field to the Percent type, which correctly displays the true ratio (like $0.152$) as the accurate percentage ($15.2\%$).
 
 **What is the system architecture of your E-Commerce Data Analysis project, and how does data flow from raw sources to final reports?**
+
 The project follows a four-layer architecture:
 **Data Source Layer:** Raw data comes from the Kaggle E-commerce Customer Behavior dataset, including purchases, product details, and return information.
 **Data Storage and Processing Layer:** BigQuery stores raw data in fact tables. ELT operations are performed to clean and transform data using SQL queries and views. Data marts are created for specific business analyses.
